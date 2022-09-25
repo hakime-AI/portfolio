@@ -1,0 +1,19 @@
+{
+    "name": "acs/annonces",
+    "authors": [
+        {
+            "name": "Sandra",
+            "email": "sandra.villot038@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Router\\": "routes/",
+            "App\\": "app/",
+            "Database\\": "database/"
+        }
+    },
+    "require": {
+        "mpdf/mpdf": "^8.0"
+    }
+}

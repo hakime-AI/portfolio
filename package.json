@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "sass": "^1.49.11"
+  },
+  "name": "annonces",
+  "description": "Projet de petites annonces en POO en groupe de 3.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "sass": "sass --watch ./sass/general.scss:./public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eric73310/Annonces.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eric73310/Annonces/issues"
+  },
+  "homepage": "https://github.com/Eric73310/Annonces#readme"
+}

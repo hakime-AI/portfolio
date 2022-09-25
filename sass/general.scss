@@ -1,0 +1,167 @@
+@import"_couleurs.scss";
+@import"_caroussel.scss";
+@import"_formulaire.scss";
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 0;
+    color: $green-darker;
+    accent-color: $green-light;
+}
+
+
+
+header {
+
+    background-color: #519F50;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+    .logo{
+        width:600px;
+    }
+    .accroche{
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    h1 {
+
+        color: white;
+        font-size: 42px;
+    }
+}
+
+.toolbar{
+    background-color: $green-darker;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+    .ajout{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        p{
+        color: $white;
+        font-size: 20px
+        }
+
+        button,
+        button::before,
+        button {
+        font-family: 'DM Sans', sans-serif;
+        background-color: $white;
+        border: solid;
+        border-radius: 50px;
+        color: $green-darker;
+        font-size: 1.6em;
+        font-weight: bold;
+        margin: 10px;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+      button:hover {
+        background-color: $green-darker;
+        color: $white;
+      }
+
+    }
+}
+
+.annonce_container{
+    font-family: 'DM Sans', sans-serif;
+    border: solid 2px black;
+}
+
+h1{
+text-align: center;
+}
+
+h2{
+    text-align: center;
+    background-color: $green-light;
+    margin-top: 0px;
+    color: $white;
+}
+
+.contenu{
+    display: flex;
+    flex-direction: row;
+}
+
+.voir{
+    display: flex;
+    justify-content: end;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+.seebtn {
+    font-family: 'DM Sans', sans-serif;
+    background-color: $green-darker;
+    border: solid;
+    border-radius: 50px;
+    color: $white;
+    font-size: 1.6em;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    }
+    .seebtn:hover {
+        background-color: $white;
+        color: $green-darker;
+    }
+
+    .search {
+        font-family: 'DM Sans', sans-serif;
+        background-color: $white;
+        border: solid;
+        border-radius: 50px;
+        color: $green-darker;
+        font-size: 1.6em;
+        font-weight: bold;
+        margin: 10px;
+        padding: 10px;
+        cursor: pointer;
+        }
+        .search:hover {
+            background-color: $green-darker;
+            color: $white;
+        }
+.infos{
+    padding-left: 375px;
+    width: 500px;
+}
+
+.infos_show{
+    text-align: center;
+    font-size: larger;
+}
+
+.choix{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 5%;
+
+}
+
+.pagination{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    li{
+        list-style-type: none;
+    }
+}
